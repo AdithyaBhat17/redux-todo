@@ -1,4 +1,5 @@
 //This function will be provided by a Redux Library
+
 function createStore(reducer){
     //1.The state
     //2.Get the state
