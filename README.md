@@ -9,7 +9,7 @@ copy+paste the contents of `index.js` into your browser's console(make sure you'
 
 ```
     store.dispatch({
-        type:'ADD_TODO',
+        type:ADD_TODO,
         todo:{
             id:0,
             name:'Learn Redux',
@@ -21,7 +21,7 @@ copy+paste the contents of `index.js` into your browser's console(make sure you'
 #### Remove task
 ```
     store.dispatch({
-        type: 'REMOVE_TODO',
+        type: REMOVE_TODO,
         id: 1
     })
 ```
@@ -29,7 +29,7 @@ copy+paste the contents of `index.js` into your browser's console(make sure you'
 #### Mark a task as COMPLETE
 ```
     store.dispatch({
-        type: 'TOGGLE_TODO',
+        type: TOGGLE_TODO,
         id: 0
     })
 ```
@@ -37,7 +37,7 @@ copy+paste the contents of `index.js` into your browser's console(make sure you'
 #### Add a long-term GOAL
 ```
     store.dispatch({
-        type: 'ADD_GOAL',
+        type: ADD_GOAL,
         goal: {
         id: 1,
         name: 'Lose 20 pounds'
@@ -48,7 +48,7 @@ copy+paste the contents of `index.js` into your browser's console(make sure you'
 #### Remove a long-term GOAL
 ```
     store.dispatch({
-        type: 'REMOVE_GOAL',
+        type: REMOVE_GOAL,
         id: 0
     })
 ```
